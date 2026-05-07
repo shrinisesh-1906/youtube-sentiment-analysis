@@ -1,58 +1,139 @@
 import streamlit as st
 import pandas as pd
 import sqlite3
+import matplotlib.pyplot as plt
 
-# Page title
-st.title("📊 YouTube Sentiment Analysis Dashboard")
+# ==========================================
+# PAGE CONFIG
+# ==========================================
 
-# Connect database
+st.set_page_config(
+    page_title="YouTube Sentiment Dashboard",
+    layout="wide"
+)
+
+st.title("📊 YouTube Comment Sentiment Dashboard")
+
+# ==========================================
+# DATABASE CONNECTION
+# ==========================================
+
 conn = sqlite3.connect("youtube_sentiment.db")
 
-# Load data
-comments_df = pd.read_sql_query(
+df = pd.read_sql_query(
     "SELECT * FROM comments",
     conn
 )
 
-videos_df = pd.read_sql_query(
-    "SELECT * FROM videos",
-    conn
+# ==========================================
+# CHECK EMPTY DATA
+# ==========================================
+
+if df.empty:
+
+    st.warning("No data available.")
+
+    st.stop()
+
+# ==========================================
+# KPI METRICS
+# ==========================================
+
+total_comments = len(df)
+
+positive_count = len(
+    df[df["sentiment_label"] == "POSITIVE"]
 )
 
-# Overview metrics
-st.subheader("📌 Overview")
-
-total_comments = len(comments_df)
-positive = len(comments_df[comments_df["sentiment_label"] == "POSITIVE"])
-negative = len(comments_df[comments_df["sentiment_label"] == "NEGATIVE"])
+negative_count = len(
+    df[df["sentiment_label"] == "NEGATIVE"]
+)
 
 col1, col2, col3 = st.columns(3)
 
-col1.metric("Total Comments", total_comments)
-col2.metric("Positive Comments", positive)
-col3.metric("Negative Comments", negative)
+col1.metric(
+    "Total Comments",
+    total_comments
+)
 
-# Sentiment distribution
+col2.metric(
+    "Positive Comments",
+    positive_count
+)
+
+col3.metric(
+    "Negative Comments",
+    negative_count
+)
+
+st.divider()
+
+# ==========================================
+# PIE CHART
+# ==========================================
+
 st.subheader("📈 Sentiment Distribution")
 
-sentiment_counts = comments_df["sentiment_label"].value_counts()
+sentiment_counts = (
+    df["sentiment_label"]
+    .value_counts()
+)
 
-st.bar_chart(sentiment_counts)
+fig, ax = plt.subplots()
 
-# Video-wise summary
-st.subheader("🎥 Video-wise Sentiment Summary")
+ax.pie(
+    sentiment_counts,
+    labels=sentiment_counts.index,
+    autopct="%1.1f%%"
+)
 
-video_summary = (
-    comments_df.groupby(
+st.pyplot(fig)
+
+st.divider()
+
+# ==========================================
+# VIDEO FILTER
+# ==========================================
+
+st.subheader("🎥 Video-wise Analysis")
+
+video_ids = df["video_id"].unique()
+
+selected_video = st.selectbox(
+    "Select Video ID",
+    video_ids
+)
+
+video_df = df[
+    df["video_id"] == selected_video
+]
+
+st.write(video_df)
+
+st.divider()
+
+# ==========================================
+# SENTIMENT SUMMARY TABLE
+# ==========================================
+
+st.subheader("📋 Sentiment Summary Table")
+
+summary = (
+    df.groupby(
         ["video_id", "sentiment_label"]
     )
     .size()
     .unstack(fill_value=0)
 )
 
-st.dataframe(video_summary)
+st.dataframe(summary)
 
-# Raw comments
-st.subheader("💬 Comments Data")
+# ==========================================
+# RAW DATA
+# ==========================================
 
-st.dataframe(comments_df)
+st.subheader("🗂 Raw Comments Data")
+
+st.dataframe(df)
+
+conn.close()
