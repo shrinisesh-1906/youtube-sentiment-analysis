@@ -1,0 +1,84 @@
+comment_id,video_id,text,author,likes,sentiment_label,sentiment_score
+Ugz47B8QUpoYFyaLD7N4AaABAg,TE79gztnxZ8,Making progress toward Google I/O 2026!,@荻野宏,0,POSITIVE,0.9992637038230896
+UgzjSIDxU8yAmhsvqUR4AaABAg,YUmB-BnNs18,"Oh and don&#39;t be afraid to create an App with Google AI studio on a mobile device. Unlike Google Anti-Gravity, AI studio is aptly suited for Vibe Coding on the go. I&#39;ve created over 70 apps all of which were created using a Mobile device, specifically a Google Pixel.",@TravisLee33,0,POSITIVE,0.9815564155578613
+Ugz46YERelZO2Ef59mJ4AaABAg,YUmB-BnNs18,If anyone has yet to utilize Google AI Studio I highly encourage you all to check it out. It&#39;s such an incredible app.,@TravisLee33,0,POSITIVE,0.9997860789299011
+Ugy9_uA0xZpzzy7yISR4AaABAg,ssDbeb9vB6g,"Answer: B) No, TypeScript errors.",@GoogleDevelopers,1,NEGATIVE,0.9992503523826599
+UgyZzT7MPCRauyDDmz54AaABAg,ssDbeb9vB6g,B,@anandshinde0358,1,POSITIVE,0.912943422794342
+UgyI4qBhLJp2GmNtNeB4AaABAg,ssDbeb9vB6g,Loved filming this =),@MarilyNikaAIPM,0,POSITIVE,0.9989522695541382
+UgwJl5Y1is8IWgMPjiR4AaABAg,ssDbeb9vB6g,I think api response interface is culprit. Even you filtered out null values but still it defined to hold null values in data that&#39;s why it showing null will exist.,@DevAbhinav,0,NEGATIVE,0.9962611794471741
+UgzSO9DqW76ttd6mUZt4AaABAg,ssDbeb9vB6g,Because you have filter out the elements not the type which it&#39;s aware of where data value could be null,@cillwish,0,NEGATIVE,0.9977237582206726
+UgwmpD0qY22S5iwSDit4AaABAg,ssDbeb9vB6g,"TS will think ApiResponse can still hold NULL, because it was defined as it can hold NULL. Just because you do some operation on its values (i.e. the implementation of ApiRespnse), TS doesn’t take it for granted",@BenMadError,1,negative,0.6611732840538025
+UgzjwDQQO4M2jFUDBNx4AaABAg,ssDbeb9vB6g,"It depends on the TS version. strictNullCheck: true will raise an error, because in older versions of TS .filter doesn&#39;t eliminate nullish values from type, where&#39;s in a newer versions this inferes correctly.",@coocoomber124,2,NEGATIVE,0.8137876987457275
+Ugx6Ip2Inys52wv3DuN4AaABAg,ssDbeb9vB6g,Hint: Filtering values at runtime does not always change what TypeScript believes at compile time.,@GoogleDevelopers,5,NEGATIVE,0.9986612796783447
+Ugxy0M09o1y8m871jvl4AaABAg,uht9BjwbuuA,So you can only access it through their API?,@frederickteye,0,NEGATIVE,0.999040424823761
+Ugx8CqED27oI8E-kfVB4AaABAg,uht9BjwbuuA,Love to be a google developer,@THESUPREMEABYSSALONE,1,POSITIVE,0.9997078776359558
+UgzgPdlKFnjBlWP4nj94AaABAg,uht9BjwbuuA,Wanna be one of google developers,@i_2d,0,NEGATIVE,0.6381269097328186
+UgwN4xZNMgF65IeoOOF4AaABAg,uht9BjwbuuA,Probably game changer,@guruteja7151,2,POSITIVE,0.9645304083824158
+Ugy64GUwvWh_cuyr-xJ4AaABAg,uht9BjwbuuA,Матрешка representation looks great,@arbuzgrib42,1,positive,0.8569507598876953
+UgwF9eAZRgXkN1Cy56l4AaABAg,uht9BjwbuuA,ممتاز,@AwsanAlhmadiy,0,positive,0.551310658454895
+Ugwwn9XSm2lQ8Dmfj2J4AaABAg,uht9BjwbuuA,Very good technology ❤,@mahdimdh4459,1,positive,0.8878446221351624
+UgwYZ_JOMariI_TbWN94AaABAg,fdimmU2hJQ4,is that supposed to be funny?,@jomaanin,0,NEGATIVE,0.9995037317276001
+UgycO39VU0ibnG8-1wN4AaABAg,fdimmU2hJQ4,"Great content! We&#39;ve added this to DailyDrops in the Remote Work section.DailyDrops spotlights creator work inside conversations that matter to practitioners. Instead of generic feeds, we organize items by intent and topic, so someone skimming a theme arrives already primed for your point of view. The system blends machine understanding with light review to keep the focus on clarity rather than hype, with thoughtful language that respects your craft. For creators, that means new readers encounter your piece alongside related ideas and credible voices, not buried under noise. Your video now sits in our site, dailydrops, giving professionals a clear doorway to your channel when that subject is top of mind. We treat independent and corporate sources with the same care and keep promotional material clearly identified, preserving a space where substance leads the way. If there is context you want readers to notice, share it; we are eager to reflect that across future drops.",@Dailydrops-cloud,0,POSITIVE,0.9997081160545349
+UgwMdksiDMaueW6DDQ94AaABAg,fdimmU2hJQ4,Do PM s always enter with a dog?  For escort?,@2connect2g,2,NEGATIVE,0.9646148681640625
+Ugxxbaz5ZxOFLwC1GoR4AaABAg,fdimmU2hJQ4,😅😂😂😂,@AnantaCrystals,2,neutral,0.5511457324028015
+Ugyjmh7RgpAdh5BKvvJ4AaABAg,fdimmU2hJQ4,"literally me right now 😅, my PM just pinged me and it&#39;s Friday afternoon",@arinflor,2,neutral,0.6445526480674744
+UgxESHvuUpHRdYFjduV4AaABAg,fdimmU2hJQ4,"I dont get it, is it advertising that google doesnt give employees good work/life balance ?",@ironaleks7617,18,NEGATIVE,0.9996824264526367
+UgyG5-LQ5gGrCfTBbCd4AaABAg,fdimmU2hJQ4,You&#39;re being assigned tasks by the PRIME MINISTER???,@localhost69,5,NEGATIVE,0.9947315454483032
+UgyGvBjAiwUaJ8NWJ-F4AaABAg,fdimmU2hJQ4,😂 oh too bad unprepared,@videojunky3007,1,negative,0.8651037812232971
+UgxyQUbnSZ1RRBg2tvV4AaABAg,fdimmU2hJQ4,cringe.,@soulreaver6300,3,NEGATIVE,0.9997401833534241
+UgzMNMIM5xIjDG3gXZ14AaABAg,1PZKfIyrYOc,This video is part of DailyDrops&#39; Llm section.,@Dailydrops-cloud,0,NEGATIVE,0.9884508848190308
+UgxZZpEA3I9gHrbDF2t4AaABAg,1PZKfIyrYOc,"This is really Interesting and I really think it is really amazing video ever nice <a href=""https://www.youtube.com/watch?v=1PZKfIyrYOc&amp;t=30"">0:30</a>",@ericrobin5709,0,POSITIVE,0.99951171875
+Ugwmza-VSOobL3KoV-14AaABAg,_en7QoZ_utc,"<a href=""https://www.youtube.com/watch?v=_en7QoZ_utc&amp;t=642"">10:42</a> thought I would hear a purr",@Elsa.zoneNt,0,NEGATIVE,0.7508938908576965
+UgypzuIZmc3TfRfId154AaABAg,_en7QoZ_utc,I just came from your Liknedin post! This is amazing!,@13thxenos,0,POSITIVE,0.9997994303703308
+UgzB1iDXZeX56oafesh4AaABAg,_en7QoZ_utc,"Microsoft는 쉬운걸 어렵게 설명하면서 모든 내용을 무슨 논문 쓰듯 문서화 해서 욕먹었었는데, 구글은 어려운걸 더 어렵게 포장하고 핵심은 (당연히 알거라고 생각하고) 빼고 설명하는 기막힌 방법을 사용한다는 말이지. 거참... ㅡ,.ㅡa... 그래서 이걸 어디에 어떻게 활용할 수 있는건데? 검색 말고!",@Makeit74,0,negative,0.6647263765335083
+UgwH-9Qg0arzNyuDZBV4AaABAg,_en7QoZ_utc,is this possible to use in android apps?,@justgamevideos1356,0,NEGATIVE,0.9938710927963257
+UgzfI_VpOz2VCOphO4Z4AaABAg,_en7QoZ_utc,API error...  API error... API error...,@UseLessFact-ory,0,NEGATIVE,0.9997931122779846
+UgxO4vWMQuBzhlgUZT14AaABAg,_en7QoZ_utc,Very well explained and excited to  use this embedding model... 😊,@chandrashekarbk007,0,positive,0.9192864894866943
+UgyfyU7BXYmVsaWsLIJ4AaABAg,_en7QoZ_utc,"<a href=""https://www.youtube.com/watch?v=_en7QoZ_utc&amp;t=586"">9:46</a> How come a puppy is more similar to a banana than a bird. Even after using 3000 dimensions still fails on basic similarity that even a little kid can do correctly",@fastneasy,0,NEGATIVE,0.9990082383155823
+UgycOsTVj7Be9JYoUCl4AaABAg,_en7QoZ_utc,"Very well done, appreciate this video!",@UdemezueEsther,0,POSITIVE,0.9998621940612793
+Ugxl95Y0bLy9XgbO1ed4AaABAg,_en7QoZ_utc,Amazing,@DolyAkter-pg1ys,0,POSITIVE,0.999875545501709
+Ugy89EBCGs8dXiajBtZ4AaABAg,_en7QoZ_utc,"Multimodal embeddings across 100+ languages matter for regions like MENA. With the UAE investing heavily in AI and developer ecosystems, tools like this can unlock stronger cross language search and real world applications.",@QuantumOud,0,POSITIVE,0.9983970522880554
+UgzS434Qu8LA3jkgLyd4AaABAg,_en7QoZ_utc,"When I see &quot;Google&quot;, I read: limits, quotas, limits, quotas......",@1stOrator,0,NEGATIVE,0.9915464520454407
+UgxYrdWnp8Ex_JX6_E54AaABAg,_en7QoZ_utc,5 modalities in one embedding space. cross-modal coherence is where these things always break. betting the edge cases still degrade,@QuantumPrintum,0,NEGATIVE,0.9730095267295837
+UgwsDZOpim1YindJClp4AaABAg,_en7QoZ_utc,Need a Gemma version. I ain’t paying for this.,@no.231,10,negative,0.5743638277053833
+UgywAt3gjOYi9xPZun14AaABAg,_en7QoZ_utc,Good to see you again Patrick! Any chance we&#39;ll see a future version of this in Gemma?,@cyberhard,6,POSITIVE,0.9996627569198608
+UgzPybjHoL-D97GDMv54AaABAg,_en7QoZ_utc,👏👏👏👏,@amirscorcher5572,0,positive,0.5907368063926697
+UgxI3tETgXj-Up0_vDB4AaABAg,_en7QoZ_utc,"Oh, now I have a something new to embed in my workflow.<br>FYI feedback. <br>In the introduction part; the lens stare, unmoving head,  the hand gestures, the camera angle it all make you look like an  animatronic thing at a Disney park rather than a person with some very interesting things to say 😅.",@xxxenricop,1,neutral,0.43020594120025635
+UgzPYbFZ19TVX1lNU9N4AaABAg,_en7QoZ_utc,"Yes yes, very good. I understand all of this... *&quot;Claude what is he saying, can we use this?&quot;",@CameronCJE,25,POSITIVE,0.9947832226753235
+UgzbYxCuS3-uju1bmkV4AaABAg,_en7QoZ_utc,"nice tutorial, thanks",@enafor99,0,POSITIVE,0.999832272529602
+Ugznizg0DHZQR1cSVkp4AaABAg,_en7QoZ_utc,hola saludos...,@Luveton_0x15,0,NEGATIVE,0.9573925137519836
+UgxPc0vhKsw5Wc_ShVl4AaABAg,bKRe5wu4Fcw,This video is part of DailyDrops&#39; Genai section.,@Dailydrops-cloud,0,NEGATIVE,0.9825901389122009
+UgzKpME4QgDjZVFCpKZ4AaABAg,bKRe5wu4Fcw,"Seems, I&#39;m one of those people who belongs to local communitiy. I have 90 models on my computer. As soon as I heard about the Gemma 4, it was on that list within 15 minutes.<br>🤗",@PrototypeZZ,0,neutral,0.4907846450805664
+UgxOQQK3mmTqhfPR5ot4AaABAg,bKRe5wu4Fcw,Excellent,@DolyAkter-pg1ys,0,POSITIVE,0.9998434782028198
+UgzjfbO54ZOmN_oAWxN4AaABAg,bKRe5wu4Fcw,Google has a product naming problem... Antigravity and RaceCondition are horrible names. Remember Gemini use to be called Bard 😅,@tvwithtiffani,0,negative,0.9468117356300354
+UgxEQyMgls3U8Sj84_h4AaABAg,bKRe5wu4Fcw,روعه,@AwsanAlhmadiy,0,positive,0.7978845834732056
+UgyDtJIAClLV7WZ1eo14AaABAg,bKRe5wu4Fcw,Gemini cli with Gemma routing still needs a lot of work. But the idea is good for using Gemma 4 to decide which large model to use when performing certain tasks. It is better than the current workflow to save tokens and reducing latency when picking which model to choose which model to use,@tuapuikia,0,POSITIVE,0.992446780204773
+Ugx68UV_A0Yt4G99fPB4AaABAg,bKRe5wu4Fcw,Bruh it sounds like my headphones broke,@dillfrescott,0,NEGATIVE,0.9989743232727051
+UgwXAQXg1y337rbeBCZ4AaABAg,bKRe5wu4Fcw,"I enjoy Gemma 4 on my Pixel. I have an IT support job and I&#39;m going to brainstorm with Gemini on how to use it or Gemma 4 in Google AI Edge Gallery to help me at with where I&#39;ll be working with servers that aren&#39;t Google by no choice of my own but oh well, it&#39;s a great company",@josephbarney4523,0,POSITIVE,0.9991869330406189
+Ugx6cTqGOBSDZWRvrl54AaABAg,bKRe5wu4Fcw,"Yeah, ok. Maybe also have AI balance your audio since you clearly can&#39;t.",@ro-minimal,1,NEGATIVE,0.9917460680007935
+UgxfAnqamqrnwhqtH6d4AaABAg,bKRe5wu4Fcw,"so, google renames from autuml, to ai platform, to vertexai, and now agent platform. <br>googel&#39;s renaming tech is too high.",@hasszhao,0,NEGATIVE,0.9996386766433716
+UgxtSl5iYkrJwmo-J354AaABAg,bKRe5wu4Fcw,"Man, we don&#39;t need good videos, we need better agents, we need better antigravity and better tools.",@patentpendulum,0,NEGATIVE,0.9996799230575562
+Ugx7zDG6zTmDrVMyCxJ4AaABAg,bKRe5wu4Fcw,Voice audio is partly only on the left channel.,@byteborg,7,NEGATIVE,0.9908944368362427
+UgwmYi-kbIJolQ4tMel4AaABAg,bKRe5wu4Fcw,Gemma!,@PauloOliveira-yf1qt,2,POSITIVE,0.9992817044258118
+Ugwzy3e10yFAyEWYWCx4AaABAg,bKRe5wu4Fcw,Good,@NaseerTechPro,0,POSITIVE,0.9998161196708679
+Ugx_5fVna-8dZq56Wzp4AaABAg,bKRe5wu4Fcw,Nice 🎉🎉,@RahulAsarpati,0,positive,0.8815842270851135
+UgxElfvWCuZmBByBA3J4AaABAg,bKRe5wu4Fcw,The weird exagerated-expressiveness and and enthusiasm is seriously off putting,@TheUnknownFactor,1,NEGATIVE,0.9992496371269226
+UgxiRj6-pt1KyiQ80DJ4AaABAg,bKRe5wu4Fcw,"I used to enjoy using Antigravity, but recent model calling errors, problems with Claude models, the very late addition of updated models, and very limited usage limits have put me off. Please revert everything to its previous state.",@thepixelworld3025,2,NEGATIVE,0.9979738593101501
+UgwGeD4x8-9876ZjZmp4AaABAg,bKRe5wu4Fcw,First&#39;,@PadhmavathiGandham,1,POSITIVE,0.9790297746658325
+UgxVsmHeGt0eXUsI22l4AaABAg,2ltcbA2CCTo,That&#39;s amazing!,@taekbaehandiman,0,POSITIVE,0.9998816251754761
+Ugxny98wdAZDlUYuw4B4AaABAg,2ltcbA2CCTo,What is the API cost to use this? Is this free like in Gemini app?,@yasaswy,0,NEGATIVE,0.9990600943565369
+UgwWdcIfjNj0cOQYEdB4AaABAg,2ltcbA2CCTo,Amazing,@DolyAkter-pg1ys,0,POSITIVE,0.999875545501709
+UgxGo9mp_KIyp8uuVa14AaABAg,2ltcbA2CCTo,Wow thats awesome!,@shaktisoni4308,1,POSITIVE,0.9998506307601929
+UgwKpNKJMsGRCxcImBV4AaABAg,2ltcbA2CCTo,"This is really really cool and super close to what I&#39;m working on right now. I actually have a useful question for whoever has an idea: I can&#39;t share the exact details, but I&quot;m building an examinator/tutor simulator for a certain oral test. There&#39;s a constant set of questions with sets of constant answer variants for each question. I&#39;m building the voice system that will ask a question and listen to the answer, my server logic adjudicates correctness based on a couple of matching algorithms, then comments or starts a short side conversation based on the answer and voice telemetry. My planned stack was almost exactly as I see in the video: Deepgram STT - LLM (I want to use Gemini 3.1 Flash Lite Preview) - TTS (most likely Inworld for a good selection of voices). LLM here is only for occasional comments (some snarky jokes, or words of encouragement), occasional hints if the users&#39;s answer is 80% close to correct or additional layer of adjudication (if the answer grade is borderline). This system doesn&#39;t require Websockets and the adjudication can stay deterministic server side (this kind of ensures simplicity and easier maintenance and debugging)<br>.<br>But I&#39;ve been impressed by this Gemini Live model and thinking to try it as well. But after consulting with other LLM models about the architecture flow, I&quot;m still recommended to stick to my design to keep adjudication very deterministic and not fully dependant on LLM making all the interview decisions. But what I see in this video is very intriguing.<br><br>I&#39;m mostly reading forums and consulting with friends who haven&#39;t built anything like that, so I&#39;m willing to stick to my plan as my dataset of questions and answers is constant for the next few years. But this videos shows a smooth conversation. I&#39;m definitely going with Google Gemini as it fits my budget, but if someone&#39;s built something similar with their models, I&#39;d appreciate your feedback. Especially: is it more expensive to have Gemini Live run the conversation and call the tools than STT - LLM -TTS pipeline? What if the conversation lasts around 20 minutes? (Like the food ordering feature in this video: can you somehow ensure, that Gemini doesn&#39;t make mistakes when picking the tool call? Or it can&#39;t be deterministic by the nature of neural nets?)",@XfilerD,1,POSITIVE,0.6793132424354553
+UgwWSF0oUyz2dL2aasR4AaABAg,2ltcbA2CCTo,🗼,@rudiantopekanbaru,0,neutral,0.5208790302276611
+UgyxmksqGfaWveFqOk94AaABAg,2ltcbA2CCTo,Could you provide guidance on developing AI for food applications and voice agents? Are there any tutorials available?,@crazxydeals,1,NEGATIVE,0.9993311166763306
+UgwbgV6Sq4VgV-p7khF4AaABAg,ZYeE4sYoRkw,I understand the example was trivial to show how it works but I don&#39;t get why I want this,@motbus3,0,NEGATIVE,0.9995054006576538
+Ugxga64rgKwJ6hVICzN4AaABAg,ZYeE4sYoRkw,So it&#39;s a fancy version of PyTorch? Interesting,@UKIUWAUWADINMA,2,NEGATIVE,0.5956646203994751
+UgxVFkd5Hokpmb7-HNN4AaABAg,ZYeE4sYoRkw,Rip TF 😂,@mohammedsilva-n8q,0,negative,0.9134888052940369
+UgyLyaM0K91kpHhEJdh4AaABAg,ZYeE4sYoRkw,❤,@Shohagnoor81,0,positive,0.4628981947898865
+Ugwzv_TF9Tz9z5DC-BF4AaABAg,ZYeE4sYoRkw,Your video made it to DailyDrops in Ab Testing!,@Dailydrops-cloud,0,NEGATIVE,0.8987112641334534
+UgwT0Clb8tBXSBClSC14AaABAg,ZYeE4sYoRkw,isnt that the roll of ai know ? to code it self 🎉,@Hamzaelbouti,1,neutral,0.41564008593559265
+UgxW28FN04PUU9pmBB14AaABAg,ZYeE4sYoRkw,cool,@anoundhim4393,1,POSITIVE,0.9998509883880615
+Ugzq9U0XDpiVjyvJKBd4AaABAg,ZYeE4sYoRkw,Sup google.. yessur,@EmpireWar_DevLog_Channel,3,NEGATIVE,0.9270292520523071
+UgxkEGi-dmeePXWBM5l4AaABAg,fdimmU2hJQ4,bounce bolls,@DakotaJansons-b2c,0,POSITIVE,0.9748159646987915
+UgzNYg5cL5zdRS0v8UV4AaABAg,2ltcbA2CCTo,swapping a whole pipeline for one SDK method is satisfying. just don&#39;t ask about latency when you&#39;re running edge inference 8000km out,@QuantumPrintum,0,POSITIVE,0.9980480670928955
